@@ -1,0 +1,144 @@
+<html>
+<head>
+  <title></title>
+  <link rel = "stylesheet" type = "text/css" href = "css/Careers.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel = "stylesheet" type = "text/css" href = "css/skitter.styles.css">
+ <script src ="js/jquery-1.6.3.min.js"></script>
+ <script src ="js/jquery.easing.1.3.js"></script>
+  <script src ="js/jquery.animate-colors-min.js"></script>
+   <script src ="js/jquery.skitter.min.js"></script>
+    <script src ="js/highlight.js"></script>
+    <script>
+      $(document).ready(function(){
+        var options = {};
+        if (document.location.search) {
+          var array = document.location.search.split('=');
+          var param = array[0].replace('?','');
+          var value = array[1];
+          if (param == 'animation'){
+            options.animation = value;
+          }
+          else if (param == 'type_navigaton'){
+            if (value == 'dots_preview'){
+              $('.border_box').CSS({'marginBottom':'40px'});
+              options['dots'] = true;
+              options['preview'] = true;
+            }
+            else {
+              options[value] = true;
+              if (value == 'dots') $ ('.border_box').CSS({'marginBottom': '40px'});
+            }
+          }
+        }
+        $('.box_skitter_large').skitter(options);
+        //Highlight
+        $('pre.code').highlight({source:1, zebra:1, indent:'space', list:'ol'});
+      });
+    </script>
+</head>
+<body>
+  <div class = "Container">
+    <div class = "headcon">
+      <div class = "logo">
+        <img src = "images/toyota.jpg" alt ="" width = "300" height = "110" /> 
+      </div>
+      <div class ="headright"><br>
+        <small> For more information, please call:</small></br>
+        <label> Toyota Number 123-456-789</label>
+
+      </div>
+    </div>
+    <div class = "navbg">
+      <div class = "nav_inside">
+        <ul> 
+          <li><a href ="index.html">Home</a></li>
+          <li><a href ="AboutUs.html">About Us</a></li>
+          <li><a href ="Services.html">Services</a></li>
+          <li><a href ="Careers.html">Careers</a></li>
+          <li><a href ="Resources.html">Resources</a></li>
+          <li><a href ="ContactUs.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class ="flashcon">
+    <div class ="box_skitter box_skitter_large" style= "z-index:0;">
+      <ul>
+        <li> <a href="#blindHeight"><img src = "./images/flash6.jpg"  class="random"/></a></li>
+        <li> <a href="#blindHeight"><img src = "./images/flash2.jpg"  class="random"/></a></li>
+        <li> <a href="#blindHeight"><img src = "./images/flash3.jpg" class="random"/></a></li>
+      </ul>
+    </div>
+  </div>
+  <div class = "midboxcon">
+    <div class = "midbox1">
+      <img src = "images/midbox7.jpg" alt ="" width = "333" height = "187" /> 
+    </div>
+    <div class = "midbox2">
+      <img src = "images/midbox2.jpg" alt ="" width = "333" height = "187" /> 
+    </div>
+    <div class = "midbox3">
+      <img src = "images/midbox8.jpg" alt ="" width = "334" height = "187" /> 
+    </div>
+   <body>
+    <div class="careers-container">
+        <div class="job-category">
+            <h2>Automotive Engineer</h2>
+            <p>Contribute to the design and development of cutting-edge automotive technologies.</p>
+        </div>
+
+        <div class="job-category">
+            <h2>Marketing Manager</h2>
+            <p>Lead marketing initiatives to promote our latest car models and brand image.</p>
+        </div>
+
+        <div class="job-category">
+            <h2>Production Technician</h2>
+            <p>Play a key role in the manufacturing process, ensuring quality and efficiency.</p>
+        </div>
+
+        <div class="job-category">
+            <h2>Sales Representative</h2>
+            <p>Connect with customers, showcase our cars, and drive sales in your region.</p>
+        </div>
+
+        <!-- Add more job categories as needed -->
+
+    </div>
+</body>
+     <footer class="footer">
+    <ul class="social-icon">
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-twitter"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a></li>
+    </ul>
+    <ul class="menu">
+      <li class="menu__item"><a class="menu__link" href="index.html">Home</a></li>
+      <li class="menu__item"><a class="menu__link" href="AboutUs.html">About</a></li>
+      <li class="menu__item"><a class="menu__link" href="Services.html">Services</a></li>
+      <li class="menu__item"><a class="menu__link" href="Careers.html">Careers</a></li>
+      <li class="menu__item"><a class="menu__link" href="Resources.html">Resources</a></li>
+      <li class="menu__item"><a class="menu__link" href="ContactUs.html">Contact Us</a></li>
+
+    </ul>
+    <p>&copy;2023 TOYOTA | MYRA MAE OBERES</p>
+      <p>For school project purpose only</p>
+  </footer>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </div>
+</footer>
+
+  </div>
+</div>
+</body>
+</html>

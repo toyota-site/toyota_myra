@@ -1,0 +1,407 @@
+body {
+  background-image: url("../images/dad.jpg");
+
+}
+
+
+.footer {
+  position: relative;
+  width: 100%;
+  background: url("../images/footer.jpg");
+  min-height: 50px;
+  padding: 15px 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.social-icon,
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.social-icon__item,
+.menu__item {
+  list-style: none;
+}
+
+.social-icon__link {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.social-icon__link:hover {
+  transform: translateY(-10px);
+}
+
+.menu__link {
+  font-size: 1.2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+  font-weight: 300;
+}
+
+.menu__link:hover {
+  opacity: 1;
+}
+
+.footer p {
+  color: white;
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
+.container{
+  margin:auto;
+  ..border:1px solid blue;
+  width: 1000px;
+  height: 500px;
+}
+.headercon{
+  width: 1000px;
+  height: 100px;
+
+}
+.logo{
+  background: url("../images/toyota.jpg") no-repeat center;
+  width: 300px;
+  height: 110px;
+  float: left;
+  padding-left: 0px;
+}
+.headright {
+  width: 700px;
+  background: url("../images/headright.jpg");
+  height: 110px;
+  float: right;
+}
+.headright small{
+  float: right;
+  font-size: 16px;
+  color: #fff;
+}
+.headright label{
+  float: right;
+  font-size: 18px;
+  color: yellow;
+}
+.navbg{
+  width: 1000px;
+  background: url("../images/navigation.jpg") repeat-x scroll center top;
+  height: 170px;
+}
+.nav_inside ul{
+  margin:0;
+  padding: 0;
+  display: inline-blocks;
+  height: 60px;
+  font-size: 18px;
+  font-family: bitter;
+}
+.nav_inside ul li{
+display: inline-block;
+padding: 0 40px;
+color: #000;
+position: relative;
+margin: 0 auto;
+}
+.nav_inside ul li a{
+  text-decoration: none;
+  color:#fff;
+  line-height: 52px;
+  margin: 0 auto;
+  display: inline-block;
+}
+.nav_inside a:hover{
+  height: 56px;
+  background-color: maroon;
+  text-transform: uppercase;
+}
+.flashcon{
+  margin: 0 auto;
+  width: 1000px;
+  height: 350;
+  background:red;
+}
+.midboxcon{
+  margin: 0 auto;
+  width: 1000px;
+  height: 200px;
+}
+.midbox1{
+  margin: 0 auto;
+  width: 333px;
+  height: 187px;
+  background: url("../images/midbox1.jpg");
+  float: left;
+}
+.midbox2{
+  margin: 0 auto;
+  width: 333px;
+  height: 187px;
+  background: url("../images/midbox2.jpg");
+  float: left;
+}
+.midbox3{
+  margin: 0 auto;
+  width: 334px;
+  height: 187px;
+  float: right;
+  background: url("../images/midbox3.jpg");
+}
+
+<style>
+      
+.container {
+max-width: 300px;
+margin: 0 auto;
+}
+
+form {
+text-align: left;
+}
+
+label {
+display: block;
+margin-bottom: 8px;
+color: #555;
+}
+
+input {
+width: 100%;
+padding: 10px;
+margin-bottom: 16px;
+box-sizing: border-box;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+h4 {
+color: lime;
+ margin-bottom: 20px;
+}
+
+button {
+background-color: #007bff;
+color: #fff;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+font-size: 16px;
+margin-bottom: 10px;
+}
+
+button:hover {
+background-color: #0056b3;
+}
+
+</style>
+
+
+@media only screen and (min-width: 150px) and (max-width: 640px) {
+  .container {
+    width: 100%;
+  }
+  
+  .logo {
+    width: 100%; /* Adjust logo width for smaller screens */
+    max-width: 200px; /* Set maximum width for the logo */
+    margin-bottom: 20px; /* Add some space below the logo */
+  }
+  
+  .headercon {
+    width: 100%;
+  }
+  
+  .headright {
+    width: 100%;
+    max-width: none;
+    float: none;
+  }
+  
+  .headright small,
+  .headright label {
+    float: none;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .navbg {
+    width: 100%;
+  }
+  
+  .flashcon {
+    width: 1000%;
+  }
+  .midboxcon
+  .midbox1,
+  .midbox2,
+  .midbox3 {
+    width: 100%; /* Occupy full width on smaller screens */
+    float: center; /* Remove float for stacking */
+    box-sizing: border-box; /* Include padding and borders in the total width */
+    margin-bottom: 20px; /* Add space between stacked boxes */
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  ..container {
+    width: 90%;
+    max-width: 100%;
+    height: auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+ 
+  .headercon,
+  .logo,
+  .headright,
+  .navbg,
+  .midboxcon,
+  .midbox1,
+  .midbox2,
+  .midbox3 {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+  }
+  .logo {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    padding-left: 10px;
+    background-size: contain;
+    float: none;
+  }
+
+  .container {
+    width: 90%;
+    max-width: 100%;
+    height: auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+ 
+  .headercon,
+  .logo,
+  .headright,
+  .navbg,
+  .midboxcon,
+  .midbox1,
+  .midbox2,
+  .midbox3 {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+  }
+  .headercon {
+    width: 100%;
+  }
+  
+  .headright {
+    width: 100%;
+    max-width: none;
+    float: none;
+  }
+  
+  .headright small,
+  .headright label {
+    float: none;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .social-icon,
+  .menu {
+    justify-content: space-around;
+    text-align: center;
+  }
+
+  .social-icon__link,
+  .menu__link {
+    margin: 10px;
+  }
+
+  .footer {
+    padding: 10px;
+  }
+
+  .footer p {
+    margin: 10px 0;
+    font-size: 0.9rem;
+  }
+  .navbg{
+ width: 100%;
+  max-width: 1000px;
+  height: 170px;
+background: url("../images/navigation.jpg") repeat-x scroll center top;
+ margin: 0 auto;
+}
+
+.nav_inside ul {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  height: 60px;
+  font-size: 18px;
+  font-family: bitter;
+}
+
+.nav_inside ul li {
+  display: inline-block;
+  padding: 0 40px;
+  color: #000;
+  position: relative;
+  margin: 0 auto;
+}
+
+.nav_inside ul li a {
+  text-decoration: none;
+  color: #fff;
+  line-height: 52px;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.nav_inside a:hover {
+  height: 56px;
+  background-color: maroon;
+  text-transform: uppercase;
+}
+
+  .box_skitter,
+  .box_skitter img,
+  .box_skitter .container_skitter {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .box_skitter .prev_button,
+  .box_skitter .next_button {
+    top: 45%;
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+  }
+
+  .box_skitter .info_slide .image_number,
+  .box_skitter .info_slide .image_number_select {
+    padding: 2px 8px;
+    margin-right: 3px;
+  }
+   
+}

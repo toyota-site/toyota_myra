@@ -1,0 +1,163 @@
+body {
+	background-image: url("../images/dad.jpg");
+
+}
+
+
+.footer {
+  position: relative;
+  width: 100%;
+  background: url("../images/footer.jpg");
+  min-height: 50px;
+  padding: 15px 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.social-icon,
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.social-icon__item,
+.menu__item {
+  list-style: none;
+}
+
+.social-icon__link {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.social-icon__link:hover {
+  transform: translateY(-10px);
+}
+
+.menu__link {
+  font-size: 1.2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+  font-weight: 300;
+}
+
+.menu__link:hover {
+  opacity: 1;
+}
+
+.footer p {
+  color: white;
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
+.container{
+	margin:auto;
+	..border:1px solid blue;
+	width: 1000px;
+	height: 500px;
+}
+.headercon{
+	width: 1000px;
+	height: 100px;
+
+}
+.logo{
+	background: url("../images/toyota.jpg") no-repeat center;
+	width: 300px;
+	height: 110px;
+	float: left;
+	padding-left: 0px;
+}
+.headright {
+	width: 700px;
+	background: url("../images/headright.jpg");
+	height: 110px;
+	float: right;
+}
+.headright small{
+	float: right;
+	font-size: 16px;
+	color: #fff;
+}
+.headright label{
+	float: right;
+	font-size: 18px;
+	color: yellow;
+}
+.navbg{
+	width: 1000px;
+	background: url("../images/navigation.jpg") repeat-x scroll center top;
+	height: 170px;
+}
+.nav_inside ul{
+	margin:0;
+	padding: 0;
+	display: inline-blocks;
+	height: 60px;
+	font-size: 18px;
+	font-family: bitter;
+}
+.nav_inside ul li{
+display: inline-block;
+padding: 0 40px;
+color: #000;
+position: relative;
+margin: 0 auto;
+}
+.nav_inside ul li a{
+	text-decoration: none;
+	color:#fff;
+	line-height: 52px;
+	margin: 0 auto;
+	display: inline-block;
+}
+.nav_inside a:hover{
+	height: 56px;
+	background-color: maroon;
+	text-transform: uppercase;
+}
+.flashcon{
+	margin: 0 auto;
+	width: 1000px;
+	height: 350;
+	background:red;
+}
+.midboxcon{
+	margin: 0 auto;
+	width: 1000px;
+	height: 200px;
+}
+.midbox1{
+	margin: 0 auto;
+	width: 333px;
+	height: 187px;
+	background: url("../images/midbox1.jpg");
+	float: left;
+}
+.midbox2{
+	margin: 0 auto;
+	width: 333px;
+	height: 187px;
+	background: url("../images/midbox2.jpg");
+	float: left;
+}
+.midbox3{
+	margin: 0 auto;
+	width: 334px;
+	height: 187px;
+	float: right;
+	background: url("../images/midbox3.jpg");
+}

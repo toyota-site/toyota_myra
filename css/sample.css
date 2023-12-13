@@ -1,0 +1,124 @@
+body{
+	background-color: #999999;
+}
+.container{
+	width: 1200px;
+	margin: 0 auto;
+	height: 1500px;
+	border: 3px solid  yellow;
+}
+.headercon{
+	width: 1200px;
+	height:100px;
+	margin: 0 auto;
+	float: left;
+	overflow: hidden;
+}
+.logo{
+	background: url ("../images/spongelogo.jpg") no-repeat center;
+	width: 500px; 
+	height: 100px;
+	float: left;
+	padding-left: 0px;
+}
+.headright{
+	width: 800px;
+    /*background: #bc9103; */
+	background:url("../images/headright.jpg");
+	height:100px;
+	position: relative;
+	bottom: 100px;
+	float: right;
+}
+.headright small{
+	float: right;
+	font-size: 16px;
+	color: #fff;
+}
+.headright label{
+	float: right;
+	font-size: 20px;
+	color: #ffdf9a;
+}
+.navigation{
+	width: 1200px;
+	background:url("../images/navigation.JPG") repeat-x scroll center top;
+	height:70px;
+	float: left;
+}
+.nav_inside ul{
+	margin:0;
+	padding:0;
+	display:inline-block;
+	height: 60px;
+	font-size: 18px;
+	font-family: bitter;
+}
+.nav_inside ul li{
+	display: inline-block;
+	padding: 0 40px;
+	color: #000;
+	position: relative;
+	margin: 0 auto;
+}
+.nav_inside ul li a{
+	text-decoration: none;
+	color:#fff;
+	line-height: 52px;
+	margin: 0 auto;
+	display: inline-block;
+}
+.nav_inside a:hover{
+	height: 56px;
+	background-color: #d8b913;
+	text-transform:uppercase;
+}
+.flashcon{
+	margin: 0 auto;
+	width:1200px;
+	height: 400px;
+}
+--.flashimages{
+	bottom:250px;
+	margin: 0;
+	width:1200;
+	height:800px;
+}
+.midboxcon{
+	margin: 0 auto;
+	width:1200px;
+	height:300px;
+}
+.midbox1{
+	
+	width:400px;
+	height:300px;	
+	float: left;
+}
+.midbox2{
+	
+	width:400px;
+	height:300px;
+	float: left;
+}
+.midbox3{
+	
+	width:400px;
+	height:300px;
+	float: right;
+}
+.content{
+	margin:0 auto;
+	width:960px;
+	height:700px;
+}
+.contentcon{
+	width:500px;
+	height:700px;
+}
+.footer{
+	margin:auto;
+	width: 1000px;
+	height: 150px;
+	background-color: red;
+}

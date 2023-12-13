@@ -1,0 +1,135 @@
+body{
+background-image: url("images/background.jpg");
+}
+.container{
+margin: 0 auto;
+width: 960px;
+height: 1200px;
+..border:1px solid #8e6c06;
+}
+.headercon{
+width: 960px;
+height: 100px;
+margin: 0 auto;
+}
+.logo{
+background: url("image/.JPG")no-repeat center;*/
+width: 200px;
+height: 100px;
+float: left;
+padding-left: 0px;
+}
+.headright{
+width: 610px;
+/* background-color:#bc9103;*/
+background: url("images/headright.jpg");
+height: 100px;
+float:right;
+}
+.headright small{
+float: right;
+font-size: 16px;
+color: #fff;
+}
+.headright label{
+float: right;
+font-size: 20px;
+color: #ffdf9a;
+}
+.navbg{
+width: 960px;
+background: url("images/navigation.JPG")repeat-x  scroll center top;
+height:55px;
+}
+
+.nav_inside ul{
+margin:0;
+padding:0;
+display:inline-block;
+height:60px;
+font-size: 18px;
+font-family: bitter;
+}
+.nav_inside ul li{
+display:inline-block;
+padding:0 40px;
+color:#000;
+position: relative;
+margin: 0 auto;
+}
+.nav_inside ul li a{
+text-decoration:none;
+color:#fff;
+line-height: 52px;
+margin: 0 auto;
+display: inline-block;
+}
+.nav_inside a:hover{
+..background:url("image/.jpg")no-repeat;
+height: 56px;
+background-color: #d8b913;
+text-transform:uppercase;
+}
+.flashcon{
+margin: 0 auto;
+width:960px;
+height:350px;
+}
+.flashimages{
+bottom:250px;
+margin:0;
+width: 960px;
+height: 350px;
+}
+.midboxcon{
+margin:0 auto;
+width: 960px;
+height: 182px;
+}
+.midbox1{
+margin:0px;
+width: 320px;
+height: 187px;
+background:url("image/m1.jpg")no-repeat;
+float: left;
+}
+.midbox2{
+margin:0px;
+width: 320px;
+height: 187px;
+background:url("image/m3.jpg");
+float: left;
+}
+.midbox3{
+margin:0px;
+width: 320px;
+height: 187px;
+background:url("image/m2.jpg")no-repeat;
+float: right;
+}
+.contentcon{
+margin:0 auto;
+width: 960px;
+height: 150px;
+}
+.sidebar{
+margin: auto;
+width: 465px;
+height: 350px;
+background:url("image/bar.jpg");
+float: left;
+}
+.content{
+margin: auto;
+width: 495px;
+height: 350px;
+background:url("image/con1.jpg")no-repeat;
+float: right;
+font-family: sans serif;
+}
+.footer{
+margin: auto;
+width: 960px;
+height:363px;
+background-color: #ff7b25;
+}
